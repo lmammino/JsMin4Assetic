@@ -9,7 +9,6 @@ The fastest solution to use JsMin and Assetic if you use [Composer](http://getco
 Installation
 ============
 
-It's heavily suggested to use 
 Add the following lines to your `composer.json`
 
 ``` javascript
@@ -19,3 +18,12 @@ Add the following lines to your `composer.json`
     }
 }
 ```
+
+and run 
+
+`> php composer.phar update`
+
+or
+
+`> composer update`
+(if you installed composer globally)
